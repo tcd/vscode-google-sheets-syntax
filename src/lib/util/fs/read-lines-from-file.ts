@@ -1,12 +1,12 @@
 import { readFileSync } from "fs"
-import { fixString } from "fixjson"
-
 import "colorts/lib/string"
 
-export const readJsonFile = <T = any>(path): T => {
+export const readLinesFromFile = (path): string[] => {
     try {
-        const result = JSON.parse(fixString(readFileSync(path).toString()))
-        return result
+        const newLine = "\n"
+        const fileContent = readFileSync(path).toString()
+        const lines = fileContent.split(newLine)
+        return lines
     } catch (error) {
         if (error.code == "ENOENT") {
             console.log(`[readJsonFile] file not found: '${path}'`.red)
