@@ -1,7 +1,13 @@
 {
-  "repository": {
-    "constant": {
-      "patterns": []
+    "repository": {
+        "constant": {
+            "patterns": [
+                {
+                    "comment": "Integers",
+                    "match": "(?<!\\$)(\\d|\\.+)(?!\\$)",
+                    "name": "constant.numeric.google-sheets",
+                }
+            ]
+        }
     }
-  }
 }

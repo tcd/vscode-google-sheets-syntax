@@ -48,7 +48,13 @@
             "patterns": []
         },
         "constant": {
-            "patterns": []
+            "patterns": [
+                {
+                    "comment": "Integers",
+                    "match": "(?<!\\$)(\\d|\\.+)(?!\\$)",
+                    "name": "constant.numeric.google-sheets"
+                }
+            ]
         },
         "entity": {
             "patterns": []
@@ -63,7 +69,12 @@
             "patterns": []
         },
         "operator": {
-            "patterns": []
+            "patterns": [
+                {
+                    "name": "keyword.operator.assignment.google-sheets",
+                    "match": "(\\=)"
+                }
+            ]
         },
         "punctuation": {
             "patterns": []

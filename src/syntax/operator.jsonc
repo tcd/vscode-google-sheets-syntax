@@ -1,7 +1,12 @@
 {
-  "repository": {
-    "operator": {
-      "patterns": []
+    "repository": {
+        "operator": {
+            "patterns": [
+                {
+                    "name": "keyword.operator.assignment.google-sheets",
+                    "match": "(\\=)"
+                },
+            ]
+        }
     }
-  }
 }
