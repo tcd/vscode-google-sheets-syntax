@@ -1,0 +1,98 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "Google Sheets",
+    "scopeName": "source.google-sheets",
+    "patterns": [
+        {
+            "include": "#comment"
+        },
+        {
+            "include": "#constant"
+        },
+        {
+            "include": "#entity"
+        },
+        {
+            "include": "#invalid"
+        },
+        {
+            "include": "#keyword"
+        },
+        {
+            "include": "#meta"
+        },
+        {
+            "include": "#operator"
+        },
+        {
+            "include": "#punctuation"
+        },
+        {
+            "include": "#storage"
+        },
+        {
+            "include": "#string"
+        },
+        {
+            "include": "#support"
+        },
+        {
+            "include": "#type"
+        },
+        {
+            "include": "#variable"
+        }
+    ],
+    "repository": {
+        "comment": {
+            "patterns": []
+        },
+        "constant": {
+            "patterns": []
+        },
+        "entity": {
+            "patterns": []
+        },
+        "invalid": {
+            "patterns": []
+        },
+        "keyword": {
+            "patterns": []
+        },
+        "meta": {
+            "patterns": []
+        },
+        "operator": {
+            "patterns": []
+        },
+        "punctuation": {
+            "patterns": []
+        },
+        "storage": {
+            "patterns": []
+        },
+        "string": {
+            "patterns": [
+                {
+                    "name": "string.quoted.single.google-sheets",
+                    "begin": "'",
+                    "end": "'"
+                },
+                {
+                    "name": "string.quoted.double.google-sheets",
+                    "begin": "\"",
+                    "end": "\""
+                }
+            ]
+        },
+        "support": {
+            "patterns": []
+        },
+        "type": {
+            "patterns": []
+        },
+        "variable": {
+            "patterns": []
+        }
+    }
+}
