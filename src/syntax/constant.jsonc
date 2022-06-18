@@ -2,11 +2,18 @@
     "repository": {
         "constant": {
             "patterns": [
+                // {
+                //     "match": "(?<!\\$)(\\d|\\.+)(?!\\$)",
+                //     "name": "constant.numeric.google-sheets",
+                // },
+                // {
+                //     "match": "(\\d|\\.+)(?!\\$)",
+                //     "name": "constant.numeric.google-sheets",
+                // },
                 {
-                    "comment": "Integers",
-                    "match": "(?<!\\$)(\\d|\\.+)(?!\\$)",
+                    "match": "(?<!\\$)(\\d|\\.+)",
                     "name": "constant.numeric.google-sheets",
-                }
+                },
             ]
         }
     }

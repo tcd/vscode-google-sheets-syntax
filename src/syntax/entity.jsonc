@@ -1,7 +1,3964 @@
 {
-  "repository": {
-    "entity": {
-      "patterns": []
+    "repository": {
+        "entity": {
+            "patterns": [
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ARRAY_CONSTRAIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FLATTEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FREQUENCY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GROWTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LINEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOGEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MDETERM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MINVERSE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MMULT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMPRODUCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMX2MY2(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMX2PY2(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMXMY2(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TRANSPOSE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TREND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DAVERAGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DCOUNT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DCOUNTA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DGET(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DMAX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DMIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DPRODUCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DSTDEV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DSTDEVP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DSUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DVAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DVARP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DATEDIF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DATEVALUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DAY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DAYS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DAYS360(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EDATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EOMONTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HOUR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISOWEEKNUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MINUTE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MONTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NETWORKDAYS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NETWORKDAYS\\.INTL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NOW(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SECOND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TIME(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TIMEVALUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TODAY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WEEKDAY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WEEKNUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WORKDAY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WORKDAY\\.INTL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(YEAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(YEARFRAC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BIN2DEC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BIN2HEX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BIN2OCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BITAND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BITLSHIFT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BITOR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BITRSHIFT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BITXOR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COMPLEX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DEC2BIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DEC2HEX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DEC2OCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DELTA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ERF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ERF\\.PRECISE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GESTEP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HEX2BIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HEX2DEC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HEX2OCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMABS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMAGINARY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMARGUMENT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCONJUGATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCOS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCOSH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCOT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCOTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCSC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCSCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMDIV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMEXP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMLOG(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMLOG10(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMLOG2(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPRODUCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMREAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSEC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSECH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSINH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSUB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMTAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMTANH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(OCT2BIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(OCT2DEC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(OCT2HEX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FILTER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SORT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SORTN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UNIQUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACCRINT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACCRINTM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AMORLINC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPDAYBS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPDAYS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPDAYSNC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPNCD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPNUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPPCD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CUMIPMT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CUMPRINC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DDB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DISC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DOLLARDE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DOLLARFR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DURATION(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EFFECT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FVSCHEDULE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(INTRATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IPMT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IRR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISPMT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MDURATION(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MIRR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NOMINAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NPER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NPV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PDURATION(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PMT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PPMT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PRICE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PRICEDISC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PRICEMAT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RECEIVED(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RRI(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SLN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SYD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TBILLEQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TBILLPRICE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TBILLYIELD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VDB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(XIRR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(XNPV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(YIELD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(YIELDDISC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(YIELDMAT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ARRAYFORMULA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DETECTLANGUAGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GOOGLEFINANCE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GOOGLETRANSLATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMAGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(QUERY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SPARKLINE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ERROR\\.TYPE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISBLANK(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISDATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISEMAIL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISERR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISERROR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISFORMULA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISLOGICAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISNA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISNONTEXT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISNUMBER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISREF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISTEXT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(N(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TYPE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CELL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FALSE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IFERROR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IFNA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NOT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(OR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SWITCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TRUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(XOR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ADDRESS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHOOSE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COLUMN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COLUMNS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FORMULATEXT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GETPIVOTDATA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HLOOKUP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(INDEX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(INDIRECT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOOKUP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MATCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(OFFSET(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROW(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROWS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VLOOKUP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ABS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACOS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACOSH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACOT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACOTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ASIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ASINH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ATAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ATAN2(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ATANH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BASE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CEILING(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CEILING\\.MATH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CEILING\\.PRECISE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COMBIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COMBINA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COSH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNTBLANK(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNTIF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNTIFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNTUNIQUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CSC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CSCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DECIMAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DEGREES(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ERFC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ERFC\\.PRECISE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EVEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EXP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FACT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FACTDOUBLE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FLOOR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FLOOR\\.MATH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FLOOR\\.PRECISE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMALN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMALN\\.PRECISE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GCD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMLN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPOWER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSQRT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(INT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISEVEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISO\\.CEILING(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISODD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LCM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOG(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOG10(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MOD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MROUND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MULTINOMIAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MUNIT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ODD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PI(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(POWER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PRODUCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(QUOTIENT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RADIANS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RAND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RANDARRAY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RANDBETWEEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROUND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROUNDDOWN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROUNDUP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SEC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SECH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SEQUENCE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SERIESSUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SIGN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SINH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SQRT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SQRTPI(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUBTOTAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMIF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMIFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMSQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TANH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TRUNC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ADD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONCAT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DIVIDE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GTE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISBETWEEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LTE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MINUS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MULTIPLY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(POW(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UMINUS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UNARY_PERCENT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UNIQUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UPLUS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONVERT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TO_DATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TO_DOLLARS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TO_PERCENT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TO_PURE_NUMBER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TO_TEXT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVEDEV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVERAGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVERAGE\\.WEIGHTED(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVERAGEA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVERAGEIF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVERAGEIFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BETA\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BETA\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BETADIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BETAINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BINOM\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BINOM\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BINOMDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHIDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHIINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHISQ\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHISQ\\.DIST\\.RT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHISQ\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHISQ\\.INV\\.RT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHISQ\\.TEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHITEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONFIDENCE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONFIDENCE\\.NORM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONFIDENCE\\.T(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CORREL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNTA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COVAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COVARIANCE\\.P(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COVARIANCE\\.S(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CRITBINOM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DEVSQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EXPON\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EXPONDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(F\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(F\\.DIST\\.RT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(F\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(F\\.INV\\.RT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(F\\.TEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FISHER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FISHERINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FORECAST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FORECAST\\.LINEAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FTEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMA\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMA\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMADIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMAINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAUSS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GEOMEAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HARMEAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HYPGEOM\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HYPGEOMDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(INTERCEPT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(KURT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LARGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOGINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOGNORM\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOGNORM\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOGNORMDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MAX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MAXA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MAXIFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MEDIAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MINA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MINIFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MODE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MODE\\.MULT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MODE\\.SNGL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NEGBINOM\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NEGBINOMDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORM\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORM\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORM\\.S\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORM\\.S\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORMDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORMINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORMSDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORMSINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PEARSON(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTILE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTILE\\.EXC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTILE\\.INC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTRANK(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTRANK\\.EXC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTRANK\\.INC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERMUTATIONA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERMUT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PHI(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(POISSON(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(POISSON\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PROB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(QUARTILE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(QUARTILE\\.EXC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(QUARTILE\\.INC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RANK(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RANK\\.AVG(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RANK\\.EQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RSQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SKEW(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SKEW\\.P(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SLOPE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SMALL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STANDARDIZE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEV\\.P(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEV\\.S(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEVA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEVP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEVPA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STEYX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.DIST\\.2T(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.DIST\\.RT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.INV\\.2T(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.TEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TRIMMEAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TTEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VAR\\.P(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VAR\\.S(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VARA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VARP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VARPA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WEIBULL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WEIBULL\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(Z\\.TEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ZTEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ARABIC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ASC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CLEAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CODE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONCATENATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DOLLAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EXACT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FIND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FINDB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FIXED(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(JOIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LEFT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LEFTB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LENB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOWER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MID(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MIDB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PROPER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REGEXEXTRACT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REGEXMATCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REGEXREPLACE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REPLACE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REPLACEB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REPT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RIGHT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RIGHTB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROMAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SEARCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SEARCHB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SPLIT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUBSTITUTE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TEXT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TEXTJOIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TRIM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UNICHAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UNICODE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UPPER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VALUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ENCODEURL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HYPERLINK(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPORTDATA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPORTFEED(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPORTHTML(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPORTRANGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPORTXML(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISURL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(Name(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ARRAY_CONSTRAIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FLATTEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FREQUENCY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GROWTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LINEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOGEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MDETERM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MINVERSE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MMULT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMPRODUCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMX2MY2(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMX2PY2(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMXMY2(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TRANSPOSE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TREND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DAVERAGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DCOUNT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DCOUNTA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DGET(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DMAX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DMIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DPRODUCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DSTDEV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DSTDEVP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DSUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DVAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DVARP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DATEDIF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DATEVALUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DAY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DAYS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DAYS360(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EDATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EOMONTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HOUR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISOWEEKNUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MINUTE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MONTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NETWORKDAYS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NETWORKDAYS\\.INTL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NOW(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SECOND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TIME(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TIMEVALUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TODAY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WEEKDAY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WEEKNUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WORKDAY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WORKDAY\\.INTL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(YEAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(YEARFRAC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BIN2DEC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BIN2HEX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BIN2OCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BITAND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BITLSHIFT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BITOR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BITRSHIFT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BITXOR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COMPLEX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DEC2BIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DEC2HEX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DEC2OCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DELTA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ERF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ERF\\.PRECISE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GESTEP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HEX2BIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HEX2DEC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HEX2OCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMABS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMAGINARY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMARGUMENT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCONJUGATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCOS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCOSH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCOT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCOTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCSC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMCSCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMDIV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMEXP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMLOG(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMLOG10(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMLOG2(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPRODUCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMREAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSEC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSECH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSINH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSUB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMTAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMTANH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(OCT2BIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(OCT2DEC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(OCT2HEX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FILTER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SORT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SORTN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UNIQUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACCRINT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACCRINTM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AMORLINC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPDAYBS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPDAYS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPDAYSNC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPNCD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPNUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUPPCD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CUMIPMT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CUMPRINC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DDB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DISC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DOLLARDE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DOLLARFR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DURATION(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EFFECT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FVSCHEDULE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(INTRATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IPMT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IRR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISPMT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MDURATION(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MIRR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NOMINAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NPER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NPV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PDURATION(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PMT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PPMT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PRICE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PRICEDISC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PRICEMAT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RECEIVED(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RRI(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SLN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SYD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TBILLEQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TBILLPRICE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TBILLYIELD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VDB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(XIRR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(XNPV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(YIELD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(YIELDDISC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(YIELDMAT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ARRAYFORMULA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DETECTLANGUAGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GOOGLEFINANCE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GOOGLETRANSLATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMAGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(QUERY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SPARKLINE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ERROR\\.TYPE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISBLANK(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISDATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISEMAIL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISERR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISERROR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISFORMULA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISLOGICAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISNA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISNONTEXT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISNUMBER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISREF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISTEXT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(N(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TYPE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CELL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FALSE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IFERROR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IFNA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NOT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(OR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SWITCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TRUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(XOR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ADDRESS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHOOSE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COLUMN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COLUMNS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FORMULATEXT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GETPIVOTDATA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HLOOKUP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(INDEX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(INDIRECT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOOKUP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MATCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(OFFSET(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROW(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROWS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VLOOKUP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ABS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACOS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACOSH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACOT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ACOTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ASIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ASINH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ATAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ATAN2(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ATANH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BASE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CEILING(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CEILING\\.MATH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CEILING\\.PRECISE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COMBIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COMBINA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COSH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COTH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNTBLANK(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNTIF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNTIFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNTUNIQUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CSC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CSCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DECIMAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DEGREES(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ERFC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ERFC\\.PRECISE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EVEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EXP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FACT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FACTDOUBLE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FLOOR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FLOOR\\.MATH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FLOOR\\.PRECISE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMALN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMALN\\.PRECISE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GCD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMLN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPOWER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMSQRT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(INT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISEVEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISO\\.CEILING(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISODD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LCM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOG(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOG10(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MOD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MROUND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MULTINOMIAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MUNIT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ODD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PI(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(POWER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PRODUCT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(QUOTIENT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RADIANS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RAND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RANDARRAY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RANDBETWEEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROUND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROUNDDOWN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROUNDUP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SEC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SECH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SEQUENCE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SERIESSUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SIGN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SINH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SQRT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SQRTPI(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUBTOTAL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMIF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMIFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUMSQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TANH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TRUNC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ADD(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONCAT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DIVIDE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GTE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISBETWEEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LTE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MINUS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MULTIPLY(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(POW(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UMINUS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UNARY_PERCENT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UNIQUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UPLUS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONVERT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TO_DATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TO_DOLLARS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TO_PERCENT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TO_PURE_NUMBER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TO_TEXT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVEDEV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVERAGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVERAGE\\.WEIGHTED(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVERAGEA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVERAGEIF(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(AVERAGEIFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BETA\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BETA\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BETADIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BETAINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BINOM\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BINOM\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(BINOMDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHIDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHIINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHISQ\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHISQ\\.DIST\\.RT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHISQ\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHISQ\\.INV\\.RT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHISQ\\.TEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHITEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONFIDENCE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONFIDENCE\\.NORM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONFIDENCE\\.T(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CORREL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COUNTA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COVAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COVARIANCE\\.P(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(COVARIANCE\\.S(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CRITBINOM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DEVSQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EXPON\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EXPONDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(F\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(F\\.DIST\\.RT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(F\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(F\\.INV\\.RT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(F\\.TEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FISHER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FISHERINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FORECAST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FORECAST\\.LINEAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FTEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMA\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMA\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMADIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAMMAINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GAUSS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(GEOMEAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HARMEAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HYPGEOM\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HYPGEOMDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(INTERCEPT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(KURT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LARGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOGINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOGNORM\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOGNORM\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOGNORMDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MAX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MAXA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MAXIFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MEDIAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MINA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MINIFS(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MODE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MODE\\.MULT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MODE\\.SNGL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NEGBINOM\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NEGBINOMDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORM\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORM\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORM\\.S\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORM\\.S\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORMDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORMINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORMSDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(NORMSINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PEARSON(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTILE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTILE\\.EXC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTILE\\.INC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTRANK(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTRANK\\.EXC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERCENTRANK\\.INC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERMUTATIONA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PERMUT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PHI(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(POISSON(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(POISSON\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PROB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(QUARTILE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(QUARTILE\\.EXC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(QUARTILE\\.INC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RANK(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RANK\\.AVG(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RANK\\.EQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RSQ(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SKEW(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SKEW\\.P(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SLOPE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SMALL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STANDARDIZE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEV\\.P(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEV\\.S(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEVA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEVP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STDEVPA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(STEYX(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.DIST\\.2T(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.DIST\\.RT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.INV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.INV\\.2T(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T\\.TEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TDIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TINV(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TRIMMEAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TTEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VAR\\.P(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VAR\\.S(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VARA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VARP(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VARPA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WEIBULL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(WEIBULL\\.DIST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(Z\\.TEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ZTEST(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ARABIC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ASC(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CHAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CLEAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CODE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(CONCATENATE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(DOLLAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(EXACT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FIND(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FINDB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(FIXED(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(JOIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LEFT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LEFTB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LEN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LENB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(LOWER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MID(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(MIDB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(PROPER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REGEXEXTRACT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REGEXMATCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REGEXREPLACE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REPLACE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REPLACEB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(REPT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RIGHT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(RIGHTB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ROMAN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SEARCH(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SEARCHB(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SPLIT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(SUBSTITUTE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(T(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TEXT(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TEXTJOIN(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(TRIM(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UNICHAR(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UNICODE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(UPPER(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(VALUE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ENCODEURL(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(HYPERLINK(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPORTDATA(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPORTFEED(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPORTHTML(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPORTRANGE(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(IMPORTXML(?=\\())"
+                },
+                {
+                    "name": "entity.name.function.google-sheets",
+                    "match": "(ISURL(?=\\())"
+                }
+            ]
+        }
     }
-  }
 }

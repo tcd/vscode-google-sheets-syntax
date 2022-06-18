@@ -6,6 +6,14 @@
                     "name": "keyword.operator.assignment.google-sheets",
                     "match": "(\\=)"
                 },
+                {
+                    "name": "keyword.operator.arithmetic.google-sheets",
+                    "match": "(\\+-|\\*|/)"
+                },
+				{
+					"name": "keyword.operator.comparison.google-sheets",
+					"match": "<=|>=|<>|<|>"
+				},
             ]
         }
     }

@@ -1,7 +1,20 @@
 {
-  "repository": {
-    "variable": {
-      "patterns": []
+    "repository": {
+        "variable": {
+            "patterns": [
+                {
+                    "name": "variable.a1.google-sheets",
+                    "match": "([A-Z]+\\d)"
+                },
+                {
+                    "name": "variable.a1.google-sheets",
+                    "match": "(\\$[A-Z+])"
+                },
+                {
+                    "name": "variable.a1.google-sheets",
+                    "match": "(\\$\\d+)"
+                },
+            ]
+        }
     }
-  }
 }
