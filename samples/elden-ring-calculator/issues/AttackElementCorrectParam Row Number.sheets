@@ -1,0 +1,1 @@
+=MATCH($F$4,AttackElementCorrectParam!$A:$A,0)

@@ -1,0 +1,1 @@
+=MATCH(CONCATENATE("Phys +",$G$2),Attack!$B$1:$EZ$1,0)+1

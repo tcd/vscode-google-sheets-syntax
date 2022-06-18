@@ -1,0 +1,9 @@
+=IF($L$20=0,
+SWITCH($K$2,"Scarlet Rot",$K$4*0.6,"Madness",$K$4*0.6,"Sleep",$K$4*0.6,"Frost",$I$8*0.6,"Poison",$J$8*0.6,"Blood",$K$8*0.6,0),
+
+SWITCH($K$2,"Scarlet Rot",$K$4,"Madness",$K$4,"Sleep",$K$4,"Frost",$I$8,
+"Poison",IF($E$6>0,ADD(MULTIPLY($E$6,MULTIPLY($F$8,$J$8)),$J$8),$J$8),
+"Blood",IF($E$6>0,ADD(MULTIPLY($E$6,MULTIPLY($F$8,$K$8)),$K$8),$K$8),
+0)
+
+)

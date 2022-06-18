@@ -1,0 +1,1 @@
+=IF($P$2=-1,-1,MATCH($P$2,AttackElementCorrectParam!$A:$A,0))

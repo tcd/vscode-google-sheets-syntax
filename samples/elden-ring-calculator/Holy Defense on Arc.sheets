@@ -1,0 +1,7 @@
+=IF($E$2>60,
+        ADD(60,MULTIPLY(10,DIVIDE(MINUS($E$2,60),39))),
+        IF($E$2>35,
+        ADD(50,MULTIPLY(10,DIVIDE(MINUS($E$2,35),25))),
+        IF($E$2>20,
+        ADD(40,MULTIPLY(10,DIVIDE(MINUS($E$2,20),15))),
+        MULTIPLY(40,DIVIDE($E$2,20)))))

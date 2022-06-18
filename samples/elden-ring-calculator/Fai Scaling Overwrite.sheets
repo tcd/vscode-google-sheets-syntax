@@ -1,0 +1,1 @@
+=IF($P$2=-1,-1,INDIRECT(ADDRESS($Q$2,COLUMN(AttackElementCorrectParam!AD$1),1,1,"AttackElementCorrectParam")))

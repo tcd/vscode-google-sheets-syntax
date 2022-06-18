@@ -1,0 +1,1 @@
+=IFNA(QUERY(Extra_Data!$A$2:$D,"SELECT A WHERE B= """&Calculator!$G$2&""" AND C= '"&Calculator!$I$2&"' "),Calculator!$G$2)

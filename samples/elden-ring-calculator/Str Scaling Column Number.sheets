@@ -1,0 +1,1 @@
+=MATCH(CONCATENATE("Str +",$G$2),Scaling!$B$1:$EZ$1,0)+1

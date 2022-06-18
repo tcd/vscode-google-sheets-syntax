@@ -1,0 +1,5 @@
+=IF(AND(
+     OR(Calculator!$J$2=FALSE,INDIRECT(ADDRESS($H$2,15,1,1,"Extra_Data"))="Yes"),
+     NOT(OR($F$10="Bow",$F$10="Light Bow",$F$10="Greatbow"))),
+Calculator!$B$2,
+IF(Calculator!$B$2*1.5>150,150,TRUNC(Calculator!$B$2*1.5)))

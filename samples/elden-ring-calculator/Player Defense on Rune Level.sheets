@@ -1,0 +1,7 @@
+=IF(Calculator!$O$2+79>240,
+        ADD(135,MULTIPLY(20,DIVIDE(MINUS(Calculator!$O$2+79,240),552))),
+        IF(Calculator!$O$2+79>170,
+        ADD(120,MULTIPLY(15,DIVIDE(MINUS(Calculator!$O$2+79,170),70))),
+        IF(Calculator!$O$2+79>150,
+        ADD(100,MULTIPLY(20,DIVIDE(MINUS(Calculator!$O$2+79,150),20))),
+        ADD(40,MULTIPLY(60,DIVIDE(MINUS(Calculator!$O$2+79,1),149))))))

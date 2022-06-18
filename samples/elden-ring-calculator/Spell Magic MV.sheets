@@ -1,0 +1,1 @@
+=INDIRECT(ADDRESS($S$2,COLUMN(E$1),1,1,"Spell_Data"))/100

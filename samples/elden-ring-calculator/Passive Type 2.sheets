@@ -1,0 +1,1 @@
+=VLOOKUP($F$2,Passive!$A$2:$C,3,0)

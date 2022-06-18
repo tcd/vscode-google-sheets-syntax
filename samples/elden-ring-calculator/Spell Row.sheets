@@ -1,0 +1,1 @@
+=MATCH($R$2,Spell_Data!$B:$B,0)

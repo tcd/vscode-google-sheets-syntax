@@ -1,0 +1,1 @@
+=MATCH($F$2,Attack!$A:$A,0)

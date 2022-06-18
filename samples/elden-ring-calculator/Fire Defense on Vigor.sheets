@@ -1,0 +1,7 @@
+=IF(Calculator!$L$2>60,
+        ADD(60,MULTIPLY(10,DIVIDE(MINUS(Calculator!$L$2,60),39))),
+        IF(Calculator!$L$2>40,
+        ADD(40,MULTIPLY(20,DIVIDE(MINUS(Calculator!$L$2,40),20))),
+        IF(Calculator!$L$2>30,
+        ADD(20,MULTIPLY(20,DIVIDE(MINUS(Calculator!$L$2,30),10))),
+        MULTIPLY(20,DIVIDE(Calculator!$L$2,30)))))

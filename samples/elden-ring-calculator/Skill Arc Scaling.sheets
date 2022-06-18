@@ -1,0 +1,3 @@
+=IF(OR($G$8=FALSE,Q$12=-1),E$6,
+(Q$12/100)*INDIRECT(ADDRESS($F$14,COLUMN(F$1),1,1,"ReinforceParamWeapon"))
+)

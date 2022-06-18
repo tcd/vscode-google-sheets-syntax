@@ -1,0 +1,1 @@
+=IF(OR($U$2="Blood",$U$2="Poison",$U$2="Madness",$U$2="Sleep"),$V$2+($V$2*$T$8*$E$6),$V$2)

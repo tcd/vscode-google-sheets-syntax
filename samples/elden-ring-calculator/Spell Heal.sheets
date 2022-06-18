@@ -1,0 +1,2 @@
+=IF($R$2="Blessing's Boon",720,IF($R$2="Blessing of the Erdtree",1080,IF($R$2="Blessing of the Erdtree (AoE)",1080,IF($R$2="Bestial Vitality",600,
+$H$22*INDIRECT(ADDRESS($S$2,22,1,1,"Spell_Data"))))))
