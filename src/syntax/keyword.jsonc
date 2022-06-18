@@ -1,7 +1,16 @@
 {
-  "repository": {
-    "keyword": {
-      "patterns": []
+    "repository": {
+        "keyword": {
+            "patterns": [
+                {
+                    "name": "keyword.boolean.google-sheets",
+                    "match": "TRUE(?=\\(\\))"
+                },
+                {
+                    "name": "keyword.boolean.google-sheets",
+                    "match": "FALSE(?=\\(\\))"
+                },
+            ]
+        }
     }
-  }
 }

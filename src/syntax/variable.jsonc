@@ -8,11 +8,19 @@
                 },
                 {
                     "name": "variable.a1.google-sheets",
-                    "match": "(\\$[A-Z+])"
+                    "match": "(\\$)([A-Z+])(\\d+)?",
+                    "captures": {
+                        "1": { "name": "storage.type.reference.absolute.google-sheets" },
+                        "3": { "name": "variable.a1.google-sheets" },
+                    }
                 },
                 {
                     "name": "variable.a1.google-sheets",
-                    "match": "(\\$\\d+)"
+                    "match": "([a-zA-Z]+)?(\\$)(\\d+)(\\b)",
+                    "captures": {
+                        "1": { "name": "variable.a1.google-sheets" },
+                        "2": { "name": "storage.type.reference.absolute.google-sheets" },
+                    }
                 },
             ]
         }

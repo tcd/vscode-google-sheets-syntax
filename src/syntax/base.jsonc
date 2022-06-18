@@ -12,10 +12,10 @@
     { "include": "#operator" },
     { "include": "#punctuation" },
     { "include": "#storage" },
-    { "include": "#string" },
+    { "include": "#variable" },
     { "include": "#support" },
     { "include": "#type" },
-    { "include": "#variable" },
+    { "include": "#string" },
   ],
   "repository":{},
 }

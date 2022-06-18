@@ -2,6 +2,10 @@
     "repository": {
         "constant": {
             "patterns": [
+                {
+                    "name": "constant.language.boolean.google-sheets",
+                    "match": "((TRUE)|(FALSE))"
+                },
                 // {
                 //     "match": "(?<!\\$)(\\d|\\.+)(?!\\$)",
                 //     "name": "constant.numeric.google-sheets",
@@ -12,6 +16,10 @@
                 // },
                 {
                     "match": "(?<!\\$)(\\d|\\.+)",
+                    "name": "constant.numeric.google-sheets",
+                },
+                {
+                    "match": "(-)?(\\d)(\\d|\\.+)?",
                     "name": "constant.numeric.google-sheets",
                 },
             ]

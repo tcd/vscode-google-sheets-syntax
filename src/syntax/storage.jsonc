@@ -1,7 +1,12 @@
 {
-  "repository": {
-    "storage": {
-      "patterns": []
+    "repository": {
+        "storage": {
+            "patterns": [
+                {
+                    "name": "storage.type.formula.google-sheets",
+                    "match": "^(=)",
+                }
+            ]
+        }
     }
-  }
 }

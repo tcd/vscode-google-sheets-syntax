@@ -3,17 +3,74 @@
         "operator": {
             "patterns": [
                 {
-                    "name": "keyword.operator.assignment.google-sheets",
-                    "match": "(\\=)"
+                    "name": "keyword.operator.range.google-sheets",
+                    "match": ":"
+                },
+                // -------------------------------------------------------------
+                // Arithmetic
+                // -------------------------------------------------------------
+                // {
+                //     "name": "keyword.operator.arithmetic.google-sheets",
+                //     "match": "(\\+|-|\\*|/)"
+                // },
+                {
+                    "name": "keyword.operator.arithmetic.google-sheets",
+                    "match": "(\\+)"
                 },
                 {
                     "name": "keyword.operator.arithmetic.google-sheets",
-                    "match": "(\\+-|\\*|/)"
+                    "match": "(?<!=)(-)"
                 },
-				{
-					"name": "keyword.operator.comparison.google-sheets",
-					"match": "<=|>=|<>|<|>"
-				},
+                {
+                    "name": "keyword.operator.arithmetic.google-sheets",
+                    "match": "(\\*)"
+                },
+                {
+                    "name": "keyword.operator.arithmetic.google-sheets",
+                    "match": "(/)"
+                },
+                // -------------------------------------------------------------
+                // Comparison
+                // -------------------------------------------------------------
+                {
+                    "name": "keyword.operator.comparison.google-sheets",
+                    "match": "(?<!^)(\\=)"
+                },
+                {
+                    "name": "keyword.operator.comparison.google-sheets",
+                    "match": "<=|>=|<>|<|>"
+                },
+                // -------------------------------------------------------------
+                // Functions
+                // -------------------------------------------------------------
+                {
+                    "name": "keyword.operator.control.conditional.google-sheets",
+                    "match": "(IF(?=\\())"
+                },
+                {
+                    "name": "keyword.operator.control.conditional.google-sheets",
+                    "match": "(IFS(?=\\())"
+                },
+                {
+                    "name": "keyword.operator.control.switch.google-sheets",
+                    "match": "(SWITCH(?=\\())"
+                },
+                {
+                    "name": "keyword.operator.logical.google-sheets",
+                    "match": "(AND(?=\\())"
+                },
+                {
+                    "name": "keyword.operator.logical.google-sheets",
+                    "match": "(OR(?=\\())"
+                },
+                {
+                    "name": "keyword.operator.logical.google-sheets",
+                    "match": "(XOR(?=\\())"
+                },
+                {
+                    "name": "keyword.operator.logical.google-sheets",
+                    "match": "(NOT(?=\\())"
+                },
             ]
         }
     }

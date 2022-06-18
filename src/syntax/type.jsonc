@@ -1,7 +1,28 @@
 {
-  "repository": {
-    "type": {
-      "patterns": []
+    "repository": {
+        "type": {
+            "patterns": [
+                {
+                    // "name": "variable.sheet-name.google-sheets",
+                    "match": "(([[:alpha:]]|_)+)(\\!)",
+                    "captures": {
+                        "1": { "name": "variable.sheet.google-sheets" },
+                        "3": { "name": "storage.type.reference.sheet.google-sheets" },
+                    }
+                },
+                {
+                    "name": "variable.sheet.google-sheets",
+                    "begin": "(')",
+                    "beginCaptures": {
+                        "1": { "name": "punctuation.definition.variable.sheet.google-sheets"},
+                    },
+                    "end": "(')(\\!)",
+                    "endCaptures": {
+                        "1": { "name": "punctuation.definition.variable.sheet.google-sheets"},
+                        "2": { "name": "storage.type.sheet-reference.google-sheets"},
+                    },
+                },
+            ]
+        }
     }
-  }
 }
