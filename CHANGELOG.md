@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project ad
 
 <!-- ## [Unreleased] -->
 
+## [2.0.0] - 2022-06-18
+### Added
+- Support for most language elements.
+
 
 ## [1.0.0] - 2022-06-17
 Initial Release
