@@ -43,6 +43,7 @@
         "color": "#1e1e1e",
         "theme": "dark"
     },
+    "icon": "assets/logo.png",
     "scripts": {
         "start": "npm run build",
         "build": "ts-node ./src/main.ts"

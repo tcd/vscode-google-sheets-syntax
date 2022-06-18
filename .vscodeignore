@@ -5,3 +5,5 @@ samples
 .editorconfig
 gulpfile.js
 CHANGELOG.md
+assets
+!assets/logo.png

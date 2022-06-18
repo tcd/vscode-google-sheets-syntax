@@ -1,4 +1,3 @@
-
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -6,17 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog][keep-a-changelog], and this project adheres to [Semantic Versioning][semver].
 
 
-## [Unreleased]
-### Changed
-- Created project
+<!-- ## [Unreleased] -->
 
 
-<!-- ## [0.3.0] - 2022-06-14
-### Added
-- Started work on defense calculations
-### Changed
-- Renamed some files
-- Include scaling values and strings in `CalculatedWeaponStats` -->
+## [1.0.0] - 2022-06-17
+Initial Release
 
 
 <!-- ======================================================================= -->
