@@ -2,7 +2,7 @@
     "name": "vscode-google-sheets-syntax",
     "displayName": "vscode-google-sheets-syntax",
     "description": "Syntax highlighting for Google Sheets formulas.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "dunstontc",
     "repository": {
         "type": "git",
