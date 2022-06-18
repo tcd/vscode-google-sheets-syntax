@@ -7,6 +7,11 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project ad
 
 <!-- ## [Unreleased] -->
 
+## [3.0.0] - 2022-06-18
+### Fixed
+- Fixed configuration and highlighting for line & block comments
+
+
 ## [2.2.0] - 2022-06-18
 ### Fixed
 - Fixed configuration and highlighting for *block* comments
