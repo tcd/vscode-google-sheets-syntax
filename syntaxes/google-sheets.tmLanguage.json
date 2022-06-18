@@ -55,6 +55,16 @@
                             "name": "punctuation.definition.comment.google-sheets"
                         }
                     }
+                },
+                {
+                    "name": "comment.block.google-sheets",
+                    "begin": "/\\*",
+                    "end": "\\*/",
+                    "captures": {
+                        "0": {
+                            "name": "punctuation.definition.comment.google-sheets"
+                        }
+                    }
                 }
             ]
         },
