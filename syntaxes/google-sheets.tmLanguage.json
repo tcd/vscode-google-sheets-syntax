@@ -45,7 +45,18 @@
     ],
     "repository": {
         "comment": {
-            "patterns": []
+            "patterns": [
+                {
+                    "name": "comment.line.google-sheets",
+                    "begin": "//",
+                    "end": "$",
+                    "beginCaptures": {
+                        "0": {
+                            "name": "punctuation.definition.comment.google-sheets"
+                        }
+                    }
+                }
+            ]
         },
         "constant": {
             "patterns": [
