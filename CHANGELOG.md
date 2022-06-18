@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project ad
 
 <!-- ## [Unreleased] -->
 
+## [3.0.1] - 2022-06-18
+### Fixed
+- Highlight placeholders. This isn't valid, but it can be helpful. Will add examples to readme.
+
 ## [3.0.0] - 2022-06-18
 ### Fixed
 - Fixed configuration and highlighting for line & block comments

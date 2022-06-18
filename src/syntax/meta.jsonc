@@ -1,7 +1,15 @@
 {
-  "repository": {
-    "meta": {
-      "patterns": []
+    "repository": {
+        "meta": {
+            "patterns": [
+                {
+                    "name": "meta.placeholder.google-sheets",
+                    "begin": "(\\{)",
+                    "end": "(\\})",
+                    "beginCaptures": { "1": { "name": "punctuation.definition.placeholder.google-sheets" } },
+                    "endCaptures": { "1": { "name": "punctuation.definition.placeholder.google-sheets" } },
+                },
+            ]
+        }
     }
-  }
 }

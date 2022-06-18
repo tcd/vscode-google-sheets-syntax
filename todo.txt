@@ -1,1 +1,2 @@
 2022-06-18 figure out proper scopes for sheet/cell references.
+2022-06-18 Add placeholder examples to readme.
