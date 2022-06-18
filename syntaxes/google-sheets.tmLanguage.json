@@ -54,11 +54,11 @@
                     "match": "((TRUE)|(FALSE))"
                 },
                 {
-                    "match": "(?<!\\$|[a-zA-Z])(\\d|\\.+)",
+                    "match": "(?<!\\$)(\\d|\\.+)",
                     "name": "constant.numeric.google-sheets"
                 },
                 {
-                    "match": "(?<!\\$|[a-zA-Z])(-)?(\\d)(\\d|\\.+)?",
+                    "match": "(?<!\\d)(-)?(\\d)(\\d|\\.+)?",
                     "name": "constant.numeric.google-sheets"
                 }
             ]
@@ -2154,7 +2154,15 @@
             "patterns": [
                 {
                     "name": "variable.a1.google-sheets",
-                    "match": "([A-Z]+\\d)"
+                    "match": "([A-Z]+)(\\d+)",
+                    "captures": {
+                        "1": {
+                            "name": "variable.a1.column.google-sheets"
+                        },
+                        "2": {
+                            "name": "variable.a1.row.google-sheets"
+                        }
+                    }
                 },
                 {
                     "name": "variable.a1.google-sheets",
@@ -2163,8 +2171,11 @@
                         "1": {
                             "name": "storage.type.reference.absolute.google-sheets"
                         },
+                        "2": {
+                            "name": "variable.a1.column.google-sheets"
+                        },
                         "3": {
-                            "name": "variable.a1.google-sheets"
+                            "name": "variable.a1.row.google-sheets"
                         }
                     }
                 },
@@ -2173,10 +2184,13 @@
                     "match": "([a-zA-Z]+)?(\\$)(\\d+)(\\b)",
                     "captures": {
                         "1": {
-                            "name": "variable.a1.google-sheets"
+                            "name": "variable.a1.column.google-sheets"
                         },
                         "2": {
                             "name": "storage.type.reference.absolute.google-sheets"
+                        },
+                        "3": {
+                            "name": "variable.a1.row.google-sheets"
                         }
                     }
                 }

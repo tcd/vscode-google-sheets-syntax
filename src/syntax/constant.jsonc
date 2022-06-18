@@ -19,7 +19,7 @@
                     "name": "constant.numeric.google-sheets",
                 },
                 {
-                    "match": "(-)?(\\d)(\\d|\\.+)?",
+                    "match": "(?<!\\d)(-)?(\\d)(\\d|\\.+)?",
                     "name": "constant.numeric.google-sheets",
                 },
             ]
