@@ -4,7 +4,7 @@ import "colorts/lib/string"
 export const readLinesFromFile = (path): string[] => {
     try {
         const newLine = "\n"
-        const fileContent = readFileSync(path).toString()
+        const fileContent = readFileSync(path).toString().replace(/\n$/, "")
         const lines = fileContent.split(newLine)
         return lines
     } catch (error) {
