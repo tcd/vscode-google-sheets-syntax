@@ -1,7 +1,34 @@
-# vscode-google-sheets-syntax 
+<div align="center">
 
-[![GitHub issues](https://img.shields.io/github/issues/tcd/vscode-google-sheets-syntax.svg)](https://github.com/tcd/vscode-google-sheets-syntax/issues)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tcd/vscode-google-sheets-syntax/blob/master/LICENSE) 
+  <h1>vscode-google-sheets-syntax </h1>
+
+  <a href="https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-google-sheets-syntax">
+    <img alt="version" src="https://vsmarketplacebadge.apphb.com/version-short/dunstontc.vscode-google-sheets-syntax.svg?style=flat&color=blue" />
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-google-sheets-syntax">
+    <img alt="Visual Studio Marketplace" src="https://vsmarketplacebadge.apphb.com/installs-short/dunstontc.vscode-google-sheets-syntax.svg?style=flat&color=blue" />
+  </a>
+  <a href="https://github.com/tcd/vscode-google-sheets-syntax/issues">
+    <img alt="issues" src="https://img.shields.io/github/issues/tcd/vscode-google-sheets-syntax.svg" />
+  </a>
+  <a href="https://github.com/tcd/vscode-google-sheets-syntax/blob/master/LICENSE">
+    <img alt="license" src="https://img.shields.io/badge/license-MIT-blue.svg" />
+  </a>
+
+  <br/>
+  <br/>
+
+  <img src="https://raw.githubusercontent.com/tcd/vscode-google-sheets-syntax/master/assets/logo/logo.512.png" alt="logo">
+
+</div>
+
+## About
+
+Language support for Google Sheets formulas.
+
+### Features
+
+- Syntax Highlighting
 
 
 ## Resources

@@ -2,7 +2,7 @@
     "name": "vscode-google-sheets-syntax",
     "displayName": "vscode-google-sheets-syntax",
     "description": "Syntax highlighting for Google Sheets formulas.",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "publisher": "dunstontc",
     "repository": {
         "type": "git",
@@ -15,7 +15,8 @@
         "vscode": "^1.69.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Data Science"
     ],
     "contributes": {
         "languages": [
@@ -43,7 +44,7 @@
         "color": "#1e1e1e",
         "theme": "dark"
     },
-    "icon": "assets/logo.png",
+    "icon": "assets/logo/logo.128.png",
     "scripts": {
         "start": "npm run build",
         "build": "ts-node ./src/main.ts"
