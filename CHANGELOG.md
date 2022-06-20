@@ -7,13 +7,18 @@ The format is based on [Keep a Changelog][keep-a-changelog], and this project ad
 
 <!-- ## [Unreleased] -->
 
+## [3.0.3] - 2022-06-20
+### Changed
+- Update logo size in readme
+
 ## [3.0.2] - 2022-06-20
 ### Changed
-- Update logo & readme.
+- Update logo & readme
 
 ## [3.0.1] - 2022-06-18
 ### Fixed
-- Highlight placeholders. This isn't valid, but it can be helpful. Will add examples to readme.
+- Highlight placeholders. 
+    - NOTE: This isn't valid, but it can be helpful. Will add examples to readme.
 
 ## [3.0.0] - 2022-06-18
 ### Fixed

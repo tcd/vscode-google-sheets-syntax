@@ -18,7 +18,7 @@
   <br/>
   <br/>
 
-  <img src="https://raw.githubusercontent.com/tcd/vscode-google-sheets-syntax/master/assets/logo/logo.512.png" alt="logo">
+  <img src="https://raw.githubusercontent.com/tcd/vscode-google-sheets-syntax/master/assets/logo/logo.256.png" alt="logo">
 
 </div>
 
